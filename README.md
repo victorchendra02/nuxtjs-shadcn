@@ -1,23 +1,34 @@
-# Nuxt Minimal Starter
+# Nuxt Js and shadcdn-vue
+On `assets/css/main.css`, these colors are from Material UI Design specifically from here [Vuetify alert component](https://vuetifyjs.com/en/components/alerts/), since I'm stuck what color to use for primary color such green, red, etc.
+```css
+:root {
+    ...
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+    /*  */
+    --color-success: #4caf50;
+    --color-info: #2196f3;
+    --color-warning: #fb8c00;
+    --color-error: #b00020;
+
+    --color-success-tonal: #e8f5e9;
+    --color-info-tonal: #e3f1fd;
+    --color-warning-tonal: #fef0df;
+    --color-error-tonal: #f5dfe3;
+}
+```
+
+## Others
+- Icons: (Lucide)[https://lucide.dev/]
+- CSS: (Tailwind)[[https://lucide.dev/]](https://tailwindcss.com/)
+- Nuxt Js: [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction)
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
 # pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -25,17 +36,8 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
 # pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +45,15 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
 # pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
 # pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
