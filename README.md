@@ -18,16 +18,16 @@ On `assets/css/main.css`, these colors are from Material UI Design specifically 
 ```
 
 ## Others
-- Icons: (Lucide)[https://lucide.dev/]
-- CSS: (Tailwind)[[https://lucide.dev/]](https://tailwindcss.com/)
+- Icons: [Lucide](https://lucide.dev/)
+- CSS: [Tailwind](https://tailwindcss.com/)
 - Nuxt Js: [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction)
+- shadcn-vue: [shadcn-vue](https://www.shadcn-vue.com/)
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
-# pnpm
 pnpm install
 ```
 
@@ -36,7 +36,6 @@ pnpm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# pnpm
 pnpm dev
 ```
 
@@ -45,14 +44,12 @@ pnpm dev
 Build the application for production:
 
 ```bash
-# pnpm
 pnpm build
 ```
 
 Locally preview production build:
 
 ```bash
-# pnpm
 pnpm preview
 ```
 
